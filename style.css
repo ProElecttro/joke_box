@@ -38,6 +38,22 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.saved-message-section li {
+  animation: slide-in 0.5s ease;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
 /* Set saved message section styles */
 .saved-message-section {
   background-color: #fff;
