@@ -67,14 +67,9 @@ body {
   margin-bottom: 20px;
 }
 
-.btn:hover {
-  background-color: #555;
-}
-
-/* Set delete button styles */
-.btn-delete {
+.delete-btn:hover {
+  color: #ff6961;
   background-color: #ff6961;
-  color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -83,6 +78,11 @@ body {
   margin-right: 10px;
   transition: background-color 0.3s ease;
   margin-bottom: 5px;
+}
+
+.btn:hover, .btn-delete:hover {
+  background-color: #555;
+  transform: scale(1.1);
 }
 
 .btn-delete:hover {
