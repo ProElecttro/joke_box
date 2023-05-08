@@ -1,9 +1,10 @@
 /* Set global styles */
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  background-image: url('background.jpg');
+  background-size: cover;
 }
+
 
 /* Set container styles */
 .container {
