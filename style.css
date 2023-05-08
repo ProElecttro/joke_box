@@ -1,109 +1,108 @@
 /* Set global styles */
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-image: url('background.jpg');
-  background-size: cover;
+font-family: 'Helvetica Neue', sans-serif;
+background-image: url('https://example.com/background.jpg');
+background-size: cover;
 }
-
 
 /* Set container styles */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
 }
 
 /* Set header styles */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+color: #fff;
+padding: 10px;
+border-radius: 5px;
 }
 
 .header h1 {
-  font-size: 32px;
-  margin: 0;
+font-size: 32px;
+margin: 0;
 }
 
 /* Set current message section styles */
 .current-message-section {
-  background-color: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .saved-message-section li {
-  animation: slide-in 0.5s ease;
+animation: slide-in 0.5s ease;
 }
 
 @keyframes slide-in {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
+from {
+transform: translateX(-100%);
+opacity: 0;
+}
 
-  to {
-    transform: translateX(0%);
-    opacity: 1;
-  }
+to {
+transform: translateX(0%);
+opacity: 1;
+}
 }
 
 /* Set saved message section styles */
 .saved-message-section {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-y: scroll;
-  max-height: 350px;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+overflow-y: scroll;
+max-height: 350px;
 }
 
 .saved-message-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+font-size: 24px;
+margin-bottom: 10px;
 }
 
 /* Set button styles */
 .btn {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-right: 10px;
-  transition: background-color 0.3s ease;
-  margin-bottom: 20px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+margin-right: 10px;
+transition: background-color 0.3s ease;
+margin-bottom: 20px;
 }
 
 .delete-btn:hover {
-  color: #ff6961;
-  background-color: #ff6961;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-right: 10px;
-  transition: background-color 0.3s ease;
-  margin-bottom: 5px;
+color: #ff6961;
+background-color: #ff6961;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+margin-right: 10px;
+transition: background-color 0.3s ease;
+margin-bottom: 5px;
 }
 
 .btn:hover, .btn-delete:hover {
-  background-color: #555;
-  transform: scale(1.1);
+background-color: #555;
+transform: scale(1.1);
 }
 
 .btn-delete:hover {
-  background-color: #ff867f;
-  color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transform: translateY(-1px);
+background-color: #ff867f;
+color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transform: translateY(-1px);
 }
